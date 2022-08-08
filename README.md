@@ -3,6 +3,9 @@
 
 Software que simula um Sistema Acadêmico de uma universidade.  
 
+## Modelo Relacional:
+!["Modelo Relacionaal do Sistema Acadêmico"](Sistema_Academico.jpg)
+
 ## 🛠️Ferramentas:
 
 - MySQL
