@@ -1,0 +1,16 @@
+.info {
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+
+    text-align: center;
+}
+
+.info > img {
+    max-height: 18rem;
+}
+
+.info > h3 {
+    color: blueviolet;
+}

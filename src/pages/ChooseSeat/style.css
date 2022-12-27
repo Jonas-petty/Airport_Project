@@ -1,0 +1,68 @@
+.main {
+    background-image: url(../../assets/banner.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.flight_info {
+    background-color: rgba(255, 255, 255, 0.575);
+    backdrop-filter: blur(10px);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    max-width: 500px;
+    margin: 40px auto;
+    padding-top: 15px;
+
+    border: 1px solid #FFF;
+    border-radius: 10px;
+}
+
+.flight_info > p {
+    font-size: 1.2rem;
+}
+
+abbr {
+    font-weight: 600;
+    color: blueviolet;
+}
+
+.airplane_body {
+    background-color: #FFF;
+    max-width: 500px;
+    height: auto;
+
+    margin: auto;
+    padding: 40px;
+
+    border-radius: 10px;
+    border: 1px solid blueviolet;
+}
+
+.seats {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.seat {
+    text-align: center;
+    margin: 5px;
+    background-color: lightgreen;
+}
+
+.seat:hover {
+    cursor: pointer;
+    color: #FFF;
+    background-color: green;
+}
+
+.seat.disabled { 
+    background-color: red;
+}

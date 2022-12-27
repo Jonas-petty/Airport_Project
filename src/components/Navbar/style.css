@@ -1,0 +1,40 @@
+
+.bg-light {
+  background: #FFF !important;
+}
+
+.navbar-brand {
+  color: #E921D6;
+}
+
+.navbar-brand:hover {
+  color: #a41996;
+}
+
+h1 {
+  font-size: 1.6em;
+  font-weight: 900;
+}
+
+.nav-item {
+  border-bottom: 2px solid #d1d1d1;
+  margin: 10px 0;
+
+  transition: border-bottom 0.5s;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid #E921D6;
+}
+
+.nav-item:last-child {
+  border-bottom: 0;
+}
+
+
+
+@media screen and (min-width: 992px) {
+  .nav-item {
+    border-bottom: 2px solid transparent;
+  }
+}

@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.BtnPrimary {
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #a100ff;
+    border: none;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s;
+  }
+  
+  .BtnPrimary:hover{
+    background: rgba(255, 0, 221, 0.8);
+  }
+  
+  .BtnSecondary{
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #7c7c8a;
+    border: none;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s;
+  }
+  
+  .BtnSecondary:hover{
+    background-color: #595963;
+  }
+  
+  .BtnOutline {
+    padding: 0.5rem;
+    border: 1px solid #7c7c8a;
+    border-radius: 32px;
+    background-color: transparent;
+    width: 110px;
+  }
+  
+  .BtnOutline:hover {
+    background-color: rgba(124, 124, 138, 0.3);
+  }
+  
+  @media (max-width: 600px) {
+    .BtnOutline {
+      font-size: 10px;
+      width: 80px;
+    }
+  }

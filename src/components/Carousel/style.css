@@ -1,0 +1,42 @@
+.carousel {
+  padding: 20px 100px;
+}
+
+.title {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.title > h2 {
+  font-size: 1.8rem;
+  color: #A100FF;
+}
+
+.carousel-item > img {
+  float: left;
+  width: 10px;
+  height: 50vh;
+  object-fit: cover;
+
+  border-radius: 5px;
+}
+
+button {
+  margin: 0 20px;
+}
+
+.button-container {
+  width: 16vw;
+  margin: auto;
+}
+
+@media screen and (max-width: 845px) {
+  .carousel {
+    padding: 0
+  }
+
+  .button-container {
+    width: 30vw;
+    margin: 20px auto;
+  }
+}

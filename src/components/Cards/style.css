@@ -1,0 +1,63 @@
+.hotel_cards {
+    padding: 20px 50px;
+}
+
+.info, .city_buttons {
+    display: flex;
+}
+
+.city_buttons > button {
+    margin: 20px auto;
+    margin-bottom: 10px;
+    margin-right: 20px;
+
+    border-radius: 20px;
+}
+
+.show-more {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.show-more > p {
+    color: blueviolet;
+}
+
+.show-more > button {
+    background-color: transparent;
+    border: none;
+}
+
+.show-more i {
+    font-size: 25px;
+    color: blueviolet;
+}
+
+.cards {
+    display: flex;
+    overflow: auto;
+}
+
+@media screen and (max-width: 1122px) {
+    .info {
+        flex-direction: column;
+    }
+
+    .city_buttons  {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .city_buttons > button {
+        font-size: 0.7rem;
+    }
+
+    .show-more {
+        margin: 20px auto;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}

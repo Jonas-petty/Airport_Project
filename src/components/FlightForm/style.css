@@ -1,0 +1,43 @@
+.bg-image {
+    background-image: url("https://img.static-af.com/images/media/E914072A-B2B5-48C1-9559E1D8C9359187/?w=1279");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.flight-form {
+  padding: 10px;
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.575);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  max-width: 1200px;
+
+  border: 1px solid #FFF;
+  border-radius: 10px;
+}
+
+.form-control, .form-select {
+  border:1px solid #A100FF;
+}
+
+.btn {
+  display: block;
+  margin: auto;
+}
+
+@media screen and (max-width: 766px) {
+  .flight-form {
+    padding: 10px;
+  }
+
+  .bg-image {
+    margin: 30px 0;
+  }
+}
